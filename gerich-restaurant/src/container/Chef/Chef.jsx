@@ -9,9 +9,11 @@ const Chef = () => (
     <div className="app__wrapper_img app__wrapper_img-reverse">
       <img src={images.chef} alt="chef" />
     </div>
+
     <div className="app__wrapper_info">
       <SubHeading title="Chef's Word" />
       <h1 className='headtext__cormorant'>What we believe in</h1>
+
       <div className="app__chef-content">
         <div className="app__chef-content_quote">
           <img src={images.quote} alt="quote" />
@@ -19,7 +21,12 @@ const Chef = () => (
         </div>
         <p className="p__opensans">tempora est a reprehenderit eaque deleniti aperiam aut architecto!</p>
       </div>
-      <div className="app__chef-sign"></div>
+
+      <div className="app__chef-sign">
+        <p>Kevin Luo</p>
+        <p className="p__opensans">Chef & Founder</p>
+        <img src={images.sign} alt="sign" />
+      </div>
     </div>
   </div>
 );
