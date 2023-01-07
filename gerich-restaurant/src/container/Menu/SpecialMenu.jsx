@@ -22,7 +22,7 @@ const SpecialMenu = () => (
       </div>
 
       <div className="app__specialMenu-menu_img">
-        <img src={images.menu} alt="menu-img" />
+        <img src={images.menu} alt="menu__img" />
       </div>
 
     <div className="app__specialMenu-menu_cocktails flex__center">
@@ -33,7 +33,6 @@ const SpecialMenu = () => (
           ))}
         </div>
       </div>
-
     </div>
 
     <div style={{marginTop: '15px'}}>
